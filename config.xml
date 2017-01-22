@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIGURACION>
+    <VERSION>1</VERSION>
+	<STR_CON>jdbc:sqlserver://52.10.155.66:1433; DatabaseName=AppValores;user=sa;password=198476ers</STR_CON>
+    <INDICADORES>
+        <UF>
+            <ORIGEN>1</ORIGEN>
+            <SELECTOR>lblValor1_1</SELECTOR>
+            <IS_SELECT>false</IS_SELECT>
+            <IS_BY_ID>true</IS_BY_ID>
+            <INDICE>0</INDICE>
+        </UF>
+        <IPV>
+            <ORIGEN>1</ORIGEN>
+            <SELECTOR>lblValor1_2</SELECTOR>
+            <IS_SELECT>false</IS_SELECT>
+            <IS_BY_ID>true</IS_BY_ID>
+            <INDICE>0</INDICE>
+        </IPV>
+        <DOLAR>
+            <ORIGEN>1</ORIGEN>
+            <SELECTOR>lblValor1_3</SELECTOR>
+            <IS_SELECT>false</IS_SELECT>
+            <IS_BY_ID>true</IS_BY_ID>
+			<INDICE>0</INDICE>
+        </DOLAR>		
+        <EURO>
+            <ORIGEN>1</ORIGEN>
+            <SELECTOR>lblValor1_5</SELECTOR>
+            <IS_SELECT>false</IS_SELECT>
+            <IS_BY_ID>true</IS_BY_ID>
+            <INDICE>0</INDICE>
+        </EURO>				
+        <IGPA>
+            <ORIGEN>2</ORIGEN>
+            <SELECTOR>ul.chart-ul li:eq(0) span.value</SELECTOR>
+            <IS_SELECT>true</IS_SELECT>
+            <IS_BY_ID>false</IS_BY_ID>
+            <INDICE>0</INDICE>
+        </IGPA>				
+        <IPSA>
+            <ORIGEN>2</ORIGEN>
+            <SELECTOR>ul.chart-ul li:eq(1) span.value</SELECTOR>
+            <IS_SELECT>true</IS_SELECT>
+            <IS_BY_ID>false</IS_BY_ID>
+            <INDICE>0</INDICE>
+        </IPSA>				
+        <NASDAQ>
+            <ORIGEN>2</ORIGEN>
+            <SELECTOR>ul.chart-ul li:eq(2) span.value</SELECTOR>
+            <IS_SELECT>true</IS_SELECT>
+            <IS_BY_ID>false</IS_BY_ID>
+            <INDICE>0</INDICE>
+        </NASDAQ>
+        <YEN>
+            <ORIGEN>2</ORIGEN>
+            <SELECTOR>ul.chart-ul li:eq(2) span.value</SELECTOR>
+            <IS_SELECT>true</IS_SELECT>
+            <IS_BY_ID>false</IS_BY_ID>
+            <INDICE>1</INDICE>
+        </YEN>
+        <REAL>
+            <ORIGEN>2</ORIGEN>
+            <SELECTOR>ul.chart-ul li:eq(1) span.value</SELECTOR>
+            <IS_SELECT>true</IS_SELECT>
+            <IS_BY_ID>false</IS_BY_ID>
+            <INDICE>1</INDICE>
+        </REAL>
+        <PESO>
+            <ORIGEN>2</ORIGEN>
+            <SELECTOR>ul.chart-ul li:eq(6) span.value</SELECTOR>
+            <IS_SELECT>true</IS_SELECT>
+            <IS_BY_ID>false</IS_BY_ID>
+            <INDICE>0</INDICE>
+        </PESO>
+        <IMACEC>
+            <ORIGEN>2</ORIGEN>
+            <SELECTOR>ul.tabs li:eq(2) table tr:eq(1) td:eq(1)</SELECTOR>
+            <IS_SELECT>true</IS_SELECT>
+            <IS_BY_ID>false</IS_BY_ID>
+            <INDICE>0</INDICE>
+        </IMACEC>
+        <IPC>
+            <ORIGEN>2</ORIGEN>
+            <SELECTOR>ul.tabs li:eq(2) table tr:eq(2) td:eq(1)</SELECTOR>
+            <IS_SELECT>true</IS_SELECT>
+            <IS_BY_ID>false</IS_BY_ID>
+            <INDICE>0</INDICE>
+        </IPC>
+        <UTM>
+            <ORIGEN>2</ORIGEN>
+            <SELECTOR>ul.tabs li:eq(2) table tr:eq(5) td:eq(1)</SELECTOR>
+            <IS_SELECT>true</IS_SELECT>
+            <IS_BY_ID>false</IS_BY_ID>
+            <INDICE>0</INDICE>
+        </UTM>
+        <TPM>
+            <ORIGEN>3</ORIGEN>
+            <SELECTOR>#ind-inflaciontpm table tbody tr:eq(2) td</SELECTOR>
+            <IS_SELECT>true</IS_SELECT>
+            <IS_BY_ID>false</IS_BY_ID>
+            <INDICE>1</INDICE>
+        </TPM>		
+        <PIB>
+            <ORIGEN>4</ORIGEN>
+            <SELECTOR>table.grid tr:eq(2) td:eq(18)</SELECTOR>
+            <IS_SELECT>true</IS_SELECT>
+            <IS_BY_ID>false</IS_BY_ID>
+            <INDICE>0</INDICE>
+        </PIB>				
+        <DOWJONES>
+            <ORIGEN>5</ORIGEN>
+            <SELECTOR>div .info_grf div:eq(3) p</SELECTOR>
+            <IS_SELECT>true</IS_SELECT>
+            <IS_BY_ID>false</IS_BY_ID>
+            <INDICE>0</INDICE>
+        </DOWJONES>
+    </INDICADORES>
+    <FUENTES>
+        <FUENTE id="1" https="false">http://si3.bcentral.cl/Indicadoressiete/secure/Indicadoresdiarios.aspx</FUENTE>
+        <FUENTE id="2" https="true">https://www.df.cl/</FUENTE>
+        <FUENTE id="3" https="false">http://www.bcentral.cl/index.asp</FUENTE>
+        <FUENTE id="4" https="false">http://si3.bcentral.cl/Boletin/secure/boletin.aspx?idCanasta=YBJ603161</FUENTE>
+        <FUENTE id="5" https="false">http://resultados.elpais.com/mercados/indices/dow_jones/2523/</FUENTE>
+    </FUENTES>
+</CONFIGURACION>
